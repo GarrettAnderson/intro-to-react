@@ -3,7 +3,9 @@ import HelloWorld from './components/HelloWorld'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return <section>
+      Hello, Welcome to React
+    </section>
   }
 }
 
