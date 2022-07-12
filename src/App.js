@@ -6,6 +6,9 @@ class App extends Component {
   render() {
     return <section>
       Hello, Welcome to React
+      <WelcomeMessage username="Superman"></WelcomeMessage>
+      <WelcomeMessage username="Batman"></WelcomeMessage>
+      <WelcomeMessage username="Cat Woman"></WelcomeMessage>
     </section>
   }
 }

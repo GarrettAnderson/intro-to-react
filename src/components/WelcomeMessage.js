@@ -4,7 +4,7 @@ class WelcomeMessage extends Component {
     render() {
         return (
             <h3>
-                Welcome, Human!
+                Welcome, {this.props.username}!
             </h3>
         );
     }
