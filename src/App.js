@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import HelloWorld from './components/HelloWorld'
+import WelcomeMessage from './components/WelcomeMessage'
 
 class App extends Component {
   render() {
